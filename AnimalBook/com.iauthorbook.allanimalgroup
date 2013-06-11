@@ -1,0 +1,13 @@
+//
+//  com.iauthorbook.allanimalgroup
+//  AnimalBook
+//
+//  Created by Deepanjali Mahapatra on 25/05/13.
+//  Copyright (c) 2013 Deepanjali Mahapatra. All rights reserved.
+//
+
+#import "com.iauthorbook.h"
+
+@implementation com_iauthorbook
+
+@end

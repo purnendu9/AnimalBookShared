@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010226A61751D20200CA1D4B /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 010226A51751D20100CA1D4B /* Resources.bundle */; };
+		010226A81751D3B800CA1D4B /* AnimalData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 010226A71751D3B800CA1D4B /* AnimalData.plist */; };
+		01158A4E17620C8E008F1855 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01158A4D17620C8E008F1855 /* libz.dylib */; };
+		01158A8017620F19008F1855 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7617620F19008F1855 /* TBXML+Compression.m */; };
+		01158A8117620F19008F1855 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7717620F19008F1855 /* TBXML+HTTP.m */; };
+		01158A8217620F19008F1855 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7817620F19008F1855 /* TBXML.m */; };
+		01158A8317620F19008F1855 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7917620F19008F1855 /* TBXML.m */; };
+		01158A8417620F19008F1855 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7A17620F19008F1855 /* TBXML+Compression.m */; };
+		01158A8517620F19008F1855 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A7B17620F19008F1855 /* TBXML+HTTP.m */; };
+		01158A8817620FBA008F1855 /* LoadAnimalsFromXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 01158A8717620FBA008F1855 /* LoadAnimalsFromXML.m */; };
+		01873FA1173E9D2F0098C6A6 /* animalgroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 01873FA0173E9D2F0098C6A6 /* animalgroup.m */; };
+		01873FA4173EA7430098C6A6 /* animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 01873FA3173EA7430098C6A6 /* animal.m */; };
 		01B2F7471735790700D0D327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2F7461735790700D0D327 /* UIKit.framework */; };
 		01B2F7491735790700D0D327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2F7481735790700D0D327 /* Foundation.framework */; };
 		01B2F74B1735790700D0D327 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2F74A1735790700D0D327 /* CoreGraphics.framework */; };
@@ -20,9 +32,29 @@
 		01B2F7631735790700D0D327 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B2F7611735790700D0D327 /* MainStoryboard_iPad.storyboard */; };
 		01B2F7661735790700D0D327 /* com_iauthorbookMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B2F7651735790700D0D327 /* com_iauthorbookMasterViewController.m */; };
 		01B2F7691735790700D0D327 /* com_iauthorbookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B2F7681735790700D0D327 /* com_iauthorbookDetailViewController.m */; };
+		01CD0AAA17508548002771BA /* allanimalgroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CD0AA917508548002771BA /* allanimalgroups.m */; };
+		01CD0AAD17508945002771BA /* InitializeAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CD0AAC17508945002771BA /* InitializeAnimals.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010226A51751D20100CA1D4B /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		010226A71751D3B800CA1D4B /* AnimalData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnimalData.plist; sourceTree = "<group>"; };
+		01158A4D17620C8E008F1855 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		01158A7617620F19008F1855 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
+		01158A7717620F19008F1855 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		01158A7817620F19008F1855 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		01158A7917620F19008F1855 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "../TBXML-Books/lib/TBXML/TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+		01158A7A17620F19008F1855 /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "../TBXML-Books/lib/TBXML/TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
+		01158A7B17620F19008F1855 /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "../TBXML-Books/lib/TBXML/TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		01158A7D17620F19008F1855 /* TBXML+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+Compression.h"; sourceTree = "<group>"; };
+		01158A7E17620F19008F1855 /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		01158A7F17620F19008F1855 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		01158A8617620FBA008F1855 /* LoadAnimalsFromXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadAnimalsFromXML.h; sourceTree = "<group>"; };
+		01158A8717620FBA008F1855 /* LoadAnimalsFromXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadAnimalsFromXML.m; sourceTree = "<group>"; };
+		01873F9F173E9D2F0098C6A6 /* animalgroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animalgroup.h; sourceTree = "<group>"; };
+		01873FA0173E9D2F0098C6A6 /* animalgroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animalgroup.m; sourceTree = "<group>"; };
+		01873FA2173EA7430098C6A6 /* animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animal.h; sourceTree = "<group>"; };
+		01873FA3173EA7430098C6A6 /* animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animal.m; sourceTree = "<group>"; };
 		01B2F7431735790700D0D327 /* AnimalBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B2F7461735790700D0D327 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01B2F7481735790700D0D327 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +74,10 @@
 		01B2F7651735790700D0D327 /* com_iauthorbookMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_iauthorbookMasterViewController.m; sourceTree = "<group>"; };
 		01B2F7671735790700D0D327 /* com_iauthorbookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_iauthorbookDetailViewController.h; sourceTree = "<group>"; };
 		01B2F7681735790700D0D327 /* com_iauthorbookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_iauthorbookDetailViewController.m; sourceTree = "<group>"; };
+		01CD0AA817508548002771BA /* allanimalgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allanimalgroups.h; sourceTree = "<group>"; };
+		01CD0AA917508548002771BA /* allanimalgroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allanimalgroups.m; sourceTree = "<group>"; };
+		01CD0AAB17508945002771BA /* InitializeAnimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeAnimals.h; sourceTree = "<group>"; };
+		01CD0AAC17508945002771BA /* InitializeAnimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeAnimals.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01158A4E17620C8E008F1855 /* libz.dylib in Frameworks */,
 				01B2F7471735790700D0D327 /* UIKit.framework in Frameworks */,
 				01B2F7491735790700D0D327 /* Foundation.framework in Frameworks */,
 				01B2F74B1735790700D0D327 /* CoreGraphics.framework in Frameworks */,
@@ -58,9 +95,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01158A7417620E81008F1855 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				01158A7517620F19008F1855 /* TBXML-Code */,
+				01158A7917620F19008F1855 /* TBXML.m */,
+				01158A7A17620F19008F1855 /* TBXML+Compression.m */,
+				01158A7B17620F19008F1855 /* TBXML+HTTP.m */,
+				01158A7C17620F19008F1855 /* TBXML-Headers */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		01158A7517620F19008F1855 /* TBXML-Code */ = {
+			isa = PBXGroup;
+			children = (
+				01158A7617620F19008F1855 /* TBXML+Compression.m */,
+				01158A7717620F19008F1855 /* TBXML+HTTP.m */,
+				01158A7817620F19008F1855 /* TBXML.m */,
+			);
+			name = "TBXML-Code";
+			path = "../TBXML-Books/lib/TBXML/TBXML-Code";
+			sourceTree = "<group>";
+		};
+		01158A7C17620F19008F1855 /* TBXML-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				01158A7D17620F19008F1855 /* TBXML+Compression.h */,
+				01158A7E17620F19008F1855 /* TBXML+HTTP.h */,
+				01158A7F17620F19008F1855 /* TBXML.h */,
+			);
+			name = "TBXML-Headers";
+			path = "../TBXML-Books/lib/TBXML/TBXML-Headers";
+			sourceTree = "<group>";
+		};
+		01873FA5173EA7490098C6A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01873F9F173E9D2F0098C6A6 /* animalgroup.h */,
+				01873FA0173E9D2F0098C6A6 /* animalgroup.m */,
+				01873FA2173EA7430098C6A6 /* animal.h */,
+				01873FA3173EA7430098C6A6 /* animal.m */,
+				01CD0AA817508548002771BA /* allanimalgroups.h */,
+				01CD0AA917508548002771BA /* allanimalgroups.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		01B2F73A1735790700D0D327 = {
 			isa = PBXGroup;
 			children = (
+				01158A7417620E81008F1855 /* TBXML */,
+				01158A4D17620C8E008F1855 /* libz.dylib */,
+				010226A71751D3B800CA1D4B /* AnimalData.plist */,
+				010226A51751D20100CA1D4B /* Resources.bundle */,
 				01B2F74C1735790700D0D327 /* AnimalBook */,
 				01B2F7451735790700D0D327 /* Frameworks */,
 				01B2F7441735790700D0D327 /* Products */,
@@ -88,8 +176,6 @@
 		01B2F74C1735790700D0D327 /* AnimalBook */ = {
 			isa = PBXGroup;
 			children = (
-				01B2F7551735790700D0D327 /* com_iauthorbookAppDelegate.h */,
-				01B2F7561735790700D0D327 /* com_iauthorbookAppDelegate.m */,
 				01B2F75E1735790700D0D327 /* MainStoryboard_iPhone.storyboard */,
 				01B2F7611735790700D0D327 /* MainStoryboard_iPad.storyboard */,
 				01B2F7641735790700D0D327 /* com_iauthorbookMasterViewController.h */,
@@ -97,6 +183,11 @@
 				01B2F7671735790700D0D327 /* com_iauthorbookDetailViewController.h */,
 				01B2F7681735790700D0D327 /* com_iauthorbookDetailViewController.m */,
 				01B2F74D1735790700D0D327 /* Supporting Files */,
+				01873FA5173EA7490098C6A6 /* Model */,
+				01CD0AAB17508945002771BA /* InitializeAnimals.h */,
+				01CD0AAC17508945002771BA /* InitializeAnimals.m */,
+				01158A8617620FBA008F1855 /* LoadAnimalsFromXML.h */,
+				01158A8717620FBA008F1855 /* LoadAnimalsFromXML.m */,
 			);
 			path = AnimalBook;
 			sourceTree = "<group>";
@@ -104,6 +195,8 @@
 		01B2F74D1735790700D0D327 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01B2F7551735790700D0D327 /* com_iauthorbookAppDelegate.h */,
+				01B2F7561735790700D0D327 /* com_iauthorbookAppDelegate.m */,
 				01B2F74E1735790700D0D327 /* AnimalBook-Info.plist */,
 				01B2F74F1735790700D0D327 /* InfoPlist.strings */,
 				01B2F7521735790700D0D327 /* main.m */,
@@ -173,6 +266,8 @@
 				01B2F75D1735790700D0D327 /* Default-568h@2x.png in Resources */,
 				01B2F7601735790700D0D327 /* MainStoryboard_iPhone.storyboard in Resources */,
 				01B2F7631735790700D0D327 /* MainStoryboard_iPad.storyboard in Resources */,
+				010226A61751D20200CA1D4B /* Resources.bundle in Resources */,
+				010226A81751D3B800CA1D4B /* AnimalData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +282,17 @@
 				01B2F7571735790700D0D327 /* com_iauthorbookAppDelegate.m in Sources */,
 				01B2F7661735790700D0D327 /* com_iauthorbookMasterViewController.m in Sources */,
 				01B2F7691735790700D0D327 /* com_iauthorbookDetailViewController.m in Sources */,
+				01873FA1173E9D2F0098C6A6 /* animalgroup.m in Sources */,
+				01873FA4173EA7430098C6A6 /* animal.m in Sources */,
+				01CD0AAA17508548002771BA /* allanimalgroups.m in Sources */,
+				01CD0AAD17508945002771BA /* InitializeAnimals.m in Sources */,
+				01158A8017620F19008F1855 /* TBXML+Compression.m in Sources */,
+				01158A8117620F19008F1855 /* TBXML+HTTP.m in Sources */,
+				01158A8217620F19008F1855 /* TBXML.m in Sources */,
+				01158A8317620F19008F1855 /* TBXML.m in Sources */,
+				01158A8417620F19008F1855 /* TBXML+Compression.m in Sources */,
+				01158A8517620F19008F1855 /* TBXML+HTTP.m in Sources */,
+				01158A8817620FBA008F1855 /* LoadAnimalsFromXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +425,7 @@
 				01B2F76E1735790700D0D327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
